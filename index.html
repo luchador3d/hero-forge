@@ -1,0 +1,133 @@
+<html>
+<style>
+  body {
+    font-family: Roboto, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  div#preload {
+    display: none;
+  }
+  /*temp styles for chibify promo*/
+
+  #chibify-promo {
+    position: absolute;
+    left: 0px;
+    top: 161px;
+    border: 0;
+    outline: 0;
+  }
+
+  #chibify-promo img {
+    width: 123px;
+    height: 138px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    #chibify-promo {
+      top: 124px;
+    }
+    #chibify-promo img {
+      width: 92.25px;
+      height: 103.5px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #chibify-promo {
+      top: 80px;
+    }
+    #chibify-promo img {
+      width: 61.5px;
+      height: 69px;
+    }
+  }
+
+  @media only screen and (max-height: 500px) {
+    #chibify-promo {
+      top: 43px;
+    }
+    #chibify-promo img {
+      width: 30.75px;
+      height: 34.5px;
+    }
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hero Forge: Custom Miniatures</title>
+
+  <meta name="description" content="Hero Forge is an online character design application that lets users create and buy customized tabletop miniatures and statuettes." />
+  <meta property="og:image" content="http://heroforge.com/static/img/heroforge-social-banner-1200.jpg?v=2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in root directory -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/css/styles.css?version=3.1.2">
+</head>
+
+<body>
+
+  <div class="fullscreen-flex flex-column">
+
+    <div id="app-wrapper">
+      <div id="character-canvas" style="position:absolute; top:0; left:0; width:100%"></div>
+      <h1 id="logo" class="no-select">HeroForge</h1>
+      <div id="ui-layout" class="fullscreen-flex flex-row">
+        <div id="my-characters-wrapper"></div>
+        <div id="ui" style="position:absolute; top:0; left:0; width:100%; height: 100%; pointer-events: none"></div>
+      </div>
+    </div>
+    <div id="app" style="position:absolute; top:0; left:0; width:100%"></div>
+  </div>
+  <footer class="no-select">
+    <div class="float-left">
+      <a href="/about/" target="_blank">About</a> | <a href="/ShippingandReturn/" target="_blank">Shipping and Return</a>
+    </div>
+    <div class="float-right">
+      <a href="mailto:support@heroforge.com" target="_blank">Contact: support@heroforge.com</a>
+      <a href="https://www.facebook.com/HeroForgeMinis/" target="_blank"><img src="/static/img/social/FaceBook.png" /></a>
+      <a href="https://twitter.com/heroforgeminis" target="_blank"><img src="/static/img/social/Twitter.png" /></a>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-overlay" class="loadingScreen" style="pointer-events: all; position:absolute; top:0; left:0; width:100%; height: 100%; overflow: hidden">
+    <div id="loading-content">
+      <header id="loading-title" style="font-size:xx-large; font-weight:bold">LOADING</header>
+      <br/><br/>
+      <img src="/static/img/banner.png" />
+      <br/><br/>
+      <div id="loading-message"><img src="/static/img/ajax-loader-still.png" /></div>
+      <br/><br/>
+      <img class="centered-img" src="/static/img/loading-lineup.jpg" />
+    </div>
+
+    <script>
+      var ART_VERSION = "3.1.2";
+      var LOAD_CONFIG = '';
+      var LOGGED_IN = "False";
+      var USER_PERMISSIONS = ['none'];
+      var USER_EMAIL = ""
+    </script>
+    <script src="/static/js/vendor/three/three.min.js?version=3.1.2"></script>
+    <script src="/static/js/vendor/jquery-1.10.2.min.js?version=3.1.2"></script>
+    <script src="/static/js/libs/jquery.cookie-1.4.1.min.js?version=3.1.2"></script>
+    <script src="/static/js/vendor/react-with-addons.min.js?version=3.1.2"></script>
+    <script src="/static/js/vendor/react-dom.min.js?version=3.1.2"></script>
+    <script src="/static/js/build/creationkit.js?version=3.1.2"></script>
+    <script src="/static/js/build/creationkitui.js?version=3.1.2"></script>
+    <script src="/static/js/build/heroforge.js?version=3.1.2"></script>
+    <script>
+      HeroForgeEntry();
+    </script>
+    <div id="preload">
+      <img src="/static/img/ajax-loader.gif" width="1" height="1" alt="Image 02" />
+    </div>
+</body>
+
+</html>
