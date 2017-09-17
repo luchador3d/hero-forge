@@ -1,9 +1,9 @@
-# partisan-figures
+# hero-forge
 
 Hero forge clone.
 
 ```
 git clone
-cd partisan-figures
+cd hero-forge
 live-server
 ```
