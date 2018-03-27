@@ -2313,7 +2313,7 @@
         value: function () {
           var e = f.default.getSelectedProduct(),
             t = e && !this.state.adding ? " ($" + e.price + ")" : "",
-            n = this.state.adding ? "Adding..." : "Add to Cart",
+            n = this.state.adding ? "Adding..." : "Download Model",
             r = this.state.productError ? c.createElement("p", {
               className: "error"
             }, "* Please select a size and material") : "";
@@ -2322,7 +2322,8 @@
           }, c.createElement("a", {
             className: "shop-button",
             id: "add",
-            onClick: this.addToCart
+            download: 'model.obj',
+            onClick: exp  //this.addToCart
           }, n, c.createElement("span", {
             id: "display-price"
           }, t)), r)
@@ -5996,9 +5997,9 @@
                 contactUs: React.createElement("li", {
                   key: "5"
                 }, "Contact hero forge at ", React.createElement("a", {
-                  href: "mailto:support@heroforge.com",
+                  href: "mailto:null@blank.com",
                   target: "_blank"
-                }, "Contact: support@heroforge.com"), "."),
+                }, "Contact:"), "."),
                 moreInformation: React.createElement("li", {
                   key: "6"
                 }, "For more information about Hero Forge, see our ", React.createElement("a", {
@@ -6261,9 +6262,9 @@
           this.DetermineVoucher();
           var e = {};
           (null == this.voucherObject || this.state.submitting) && (e.disabled = "disabled");
-          var t = this.state.submitting ? "Adding..." : "Add to Cart",
+          var t = this.state.submitting ? "Adding..." : "Download Model",
             n = this.shippingObject ? this.shippingObject.description : "<p>shipping not included</p>",
-            r = null == this.voucherObject ? "<p>There's been an error selecting your voucher<br/>Please emails us at <a href='mailto:support@heroforge.com' target='_blank'>support@heroforge.com</a></p>" : this.voucherObject.description + n;
+            r = null == this.voucherObject ? "<p>There's been an error selecting your voucher</p>" : this.voucherObject.description + n;
           return c.default.createElement("div", {
             id: "voucher-wrapper"
           }, c.default.createElement("div", {
@@ -6289,37 +6290,37 @@
             label: "--Tabletop Miniatures--"
           }, c.default.createElement("option", {
             value: "106"
-          }, "Nylon Plastic Tabletop Scale Mini ($14.99)"), c.default.createElement("option", {
+          }, "Nylon Plastic Tabletop Scale Mini ($0)"), c.default.createElement("option", {
             value: "108"
-          }, "Premium Plastic Tabletop Scale Mini ($29.99)"), c.default.createElement("option", {
+          }, "Premium Plastic Tabletop Scale Mini ($0)"), c.default.createElement("option", {
             value: "74"
-          }, "Steel Miniature Tabletop Scale Mini ($34.99)"), c.default.createElement("option", {
+          }, "Steel Miniature Tabletop Scale Mini ($0)"), c.default.createElement("option", {
             value: "78"
-          }, "Bronze Miniature Tabletop Scale Mini ($99.99)")), c.default.createElement("optgroup", {
+          }, "Bronze Miniature Tabletop Scale Mini ($0)")), c.default.createElement("optgroup", {
             label: "--Mounted Tabletop Miniatures--"
           }, c.default.createElement("option", {
             value: "107"
-          }, "Nylon Plastic Mounted Tabletop Scale Mini ($29.99)"), c.default.createElement("option", {
+          }, "Nylon Plastic Mounted Tabletop Scale Mini ($0)"), c.default.createElement("option", {
             value: "110"
-          }, "Premium Plastic Mounted Tabletop Scale Mini ($59.99)"), c.default.createElement("option", {
+          }, "Premium Plastic Mounted Tabletop Scale Mini ($0)"), c.default.createElement("option", {
             value: "77"
-          }, "Steel Mounted Miniature Tabletop Scale Mini ($69.99)"), c.default.createElement("option", {
+          }, "Steel Mounted Miniature Tabletop Scale Mini ($0)"), c.default.createElement("option", {
             value: "79"
-          }, "Bronze Mounted Miniature Tabletop Scale Mini ($199.99)")), c.default.createElement("optgroup", {
+          }, "Bronze Mounted Miniature Tabletop Scale Mini ($0)")), c.default.createElement("optgroup", {
             label: "--Statuettes--"
           }, c.default.createElement("option", {
             value: "82"
-          }, "2x Scale Statuette in Nylon Plastic ($59.99)"), c.default.createElement("option", {
+          }, "2x Scale Statuette in Nylon Plastic ($0)"), c.default.createElement("option", {
             value: "84"
-          }, "4x Scale Statuette in Nylon Plastic ($219.99)"))), c.default.createElement("select", {
+          }, "4x Scale Statuette in Nylon Plastic ($0)"))), c.default.createElement("select", {
             id: "shipping",
             value: this.state.shipping,
             onChange: this.updateShipping
           }, c.default.createElement("option", {
             value: "112"
-          }, "US Domestic Shipping (+$5.00)"), c.default.createElement("option", {
+          }, "US Domestic Shipping (+$0.00)"), c.default.createElement("option", {
             value: "114"
-          }, "International Shipping (+$15.00)"), c.default.createElement("option", {
+          }, "International Shipping (+$0.00)"), c.default.createElement("option", {
             value: ""
           }, "No Shipping (+$0.00)")), c.default.createElement("input", {
             id: "id_quantity",
@@ -8926,4 +8927,3 @@
   var r = function () {};
   e.exports = r
 }]);
-//# sourceMappingURL=maps/creationkitui.js.map

@@ -60518,7 +60518,7 @@
     "price": [{
       "description": "<p>Custom 2x Scale Statuette in \"Strong Plastic\"</p>",
       "title": "2x Scale Statuette in Nylon Plastic",
-      "price": 59.99,
+      "price": 0,
       "p_id": 8,
       "upc": "0003",
       "currency": "USD",
@@ -60527,7 +60527,7 @@
     }, {
       "description": "<p>Custom 4x Scale Statuette in \"Strong Plastic\"</p>",
       "title": "4x Scale Statuette in Nylon Plastic",
-      "price": 219.99,
+      "price": 0,
       "p_id": 9,
       "upc": "0004",
       "currency": "USD",
@@ -60536,7 +60536,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Mounted Tabletop Miniature in Nylon Plastic</p>",
       "title": "30mm Tabletop Scale Mounted Miniature in Nylon Plastic",
-      "price": 29.99,
+      "price": 0,
       "p_id": 11,
       "upc": "5",
       "currency": "USD",
@@ -60545,7 +60545,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Tabletop Miniature in Nylon Plastic</p>",
       "title": "30mm Tabletop Scale Miniature in Nylon Plastic",
-      "price": 14.99,
+      "price": 0,
       "p_id": 14,
       "upc": "0012",
       "currency": "USD",
@@ -60554,7 +60554,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Tabletop Miniature in Steel</p>",
       "title": "30mm Tabletop Scale Miniature in Steel",
-      "price": 34.99,
+      "price": 0,
       "p_id": 33,
       "upc": "0009",
       "currency": "USD",
@@ -60563,7 +60563,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Tabletop Miniature in Bronze</p>",
       "title": "30mm Tabletop Scale Miniature in Bronze",
-      "price": 99.99,
+      "price": 0,
       "p_id": 34,
       "upc": "0010",
       "currency": "USD",
@@ -60572,7 +60572,7 @@
     }, {
       "description": "<p>Custom 2x Scale\u00a0Statuette in Steel</p>",
       "title": "2x Scale Statuette in Steel",
-      "price": 199.99,
+      "price": 0,
       "p_id": 35,
       "upc": "0013",
       "currency": "USD",
@@ -60581,7 +60581,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Mounted Tabletop Miniature in Steel</p>",
       "title": "30mm Tabletop Scale Mounted Miniature in Steel",
-      "price": 69.99,
+      "price": 0,
       "p_id": 37,
       "upc": "00012",
       "currency": "USD",
@@ -60590,7 +60590,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Mounted Tabletop Miniature in Bronze</p>",
       "title": "30mm Tabletop Scale Mounted Miniature in Bronze",
-      "price": 199.99,
+      "price": 0,
       "p_id": 38,
       "upc": "00013",
       "currency": "USD",
@@ -60599,7 +60599,7 @@
     }, {
       "description": "<p>Custom 2x Scale Mounted Statuette in \"Strong Plastic\"</p>",
       "title": "2x Scale Mounted Statuette in Nylon Plastic",
-      "price": 119.99,
+      "price": 0,
       "p_id": 39,
       "upc": "00014",
       "currency": "USD",
@@ -60608,7 +60608,7 @@
     }, {
       "description": "<p>Custom 2x Scale Mounted Statuette in Steel</p>",
       "title": "2x Scale Mounted Statuette in Steel",
-      "price": 399.99,
+      "price": 0,
       "p_id": 40,
       "upc": "00015",
       "currency": "USD",
@@ -60617,7 +60617,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Tabletop Miniature in Gray Plastic</p>",
       "title": "30mm Tabletop Scale Miniature in Premium Plastic",
-      "price": 29.99,
+      "price": 0,
       "p_id": 59,
       "upc": "0017",
       "currency": "USD",
@@ -60626,7 +60626,7 @@
     }, {
       "description": "<p>Custom 30mm Scale Mounted Tabletop Miniature in Gray Plastic</p>",
       "title": "30mm Tabletop Scale Mounted Miniature in Premium Plastic",
-      "price": 59.99,
+      "price": 0,
       "p_id": 61,
       "upc": "0018",
       "currency": "USD",
@@ -60635,7 +60635,7 @@
     }, {
       "description": "",
       "title": "Digital Mini Download",
-      "price": 9.99,
+      "price": 0,
       "p_id": 115,
       "upc": "1734",
       "currency": "USD",
@@ -60644,7 +60644,7 @@
     }, {
       "description": "",
       "title": "2X Digital Mini Download",
-      "price": 9.99,
+      "price": 0,
       "p_id": 116,
       "upc": "1735",
       "currency": "USD",
@@ -60653,7 +60653,7 @@
     }, {
       "description": "",
       "title": "4x Digital Mini Download",
-      "price": 9.99,
+      "price": 0,
       "p_id": 117,
       "upc": "1736",
       "currency": "USD",
@@ -60662,7 +60662,7 @@
     }, {
       "description": "",
       "title": "2x Scale Mounted Statuette as Digital Download",
-      "price": 9.99,
+      "price": 0,
       "p_id": 118,
       "upc": "1737",
       "currency": "USD",
@@ -60671,7 +60671,7 @@
     }, {
       "description": "",
       "title": "30mm Tabletop Scale Mounted Miniature as Digital Download",
-      "price": 9.99,
+      "price": 0,
       "p_id": 119,
       "upc": "1738",
       "currency": "USD",
